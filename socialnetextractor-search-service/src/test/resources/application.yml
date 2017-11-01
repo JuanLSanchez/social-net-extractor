@@ -1,0 +1,17 @@
+socialnetextractor-search-service:
+  api:
+    prefix: /api/v
+    version: '@project.artifact.selectedVersion.majorVersion@'
+spring:
+  jackson:
+    serialization:
+      write-dates-as-timestamps: false
+      write-date-timestamps-as-nanoseconds: false
+  data:
+    mongodb:
+      port: 0
+logging:
+  config: null
+  level:
+    root: error
+    es.juanlsanchez.socialnetextractor: debug

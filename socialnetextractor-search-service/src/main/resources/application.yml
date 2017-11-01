@@ -1,0 +1,17 @@
+socialnetextractor-search-service:
+  api:
+    prefix: /api/v
+    version: '@project.artifact.selectedVersion.majorVersion@'
+spring:
+  jackson:
+    serialization:
+      write-dates-as-timestamps: false
+      write-date-timestamps-as-nanoseconds: false
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+      database: search
+      authentication-database: admin
+      repositories:
+        enabled: true
