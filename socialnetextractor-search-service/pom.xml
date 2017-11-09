@@ -12,13 +12,11 @@
 
 	<parent>
 		<groupId>es.juanlsanchez.socialnetextractor</groupId>
-		<artifactId>socialnetextractor-parent</artifactId>
+		<artifactId>socialnetextractor-microservice-parent</artifactId>
 		<version>0.0.1</version>
-		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
 
 	<dependencies>
-
 		<!-- Web -->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
@@ -38,13 +36,6 @@
 			<groupId>de.flapdoodle.embed</groupId>
 			<artifactId>de.flapdoodle.embed.mongo</artifactId>
 			<scope>test</scope>
-		</dependency>
-
-		<!-- Dev -->
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-devtools</artifactId>
-			<scope>runtime</scope>
 		</dependency>
 	</dependencies>
 
