@@ -14,7 +14,7 @@ import com.google.common.collect.Sets;
 
 import es.juanlsanchez.socialnetextractor.searchservice.model.Query;
 import es.juanlsanchez.socialnetextractor.searchservice.model.Search;
-import es.juanlsanchez.socialnetextractor.searchservice.model.Source;
+import es.juanlsanchez.socialnetextractor.searchservice.model.enums.Source;
 import es.juanlsanchez.socialnetextractor.searchservice.web.dto.QueryEditDTO;
 import es.juanlsanchez.socialnetextractor.searchservice.web.dto.SearchEditDTO;
 import es.juanlsanchez.socialnetextractor.searchservice.web.manager.QueryManager;

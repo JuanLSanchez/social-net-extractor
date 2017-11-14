@@ -34,7 +34,7 @@ import es.juanlsanchez.socialnetextractor.searchservice.config.Populate;
 import es.juanlsanchez.socialnetextractor.searchservice.config.Resolve;
 import es.juanlsanchez.socialnetextractor.searchservice.model.Query;
 import es.juanlsanchez.socialnetextractor.searchservice.model.Search;
-import es.juanlsanchez.socialnetextractor.searchservice.model.Source;
+import es.juanlsanchez.socialnetextractor.searchservice.model.enums.Source;
 import es.juanlsanchez.socialnetextractor.searchservice.repository.QueryRepository;
 import es.juanlsanchez.socialnetextractor.searchservice.repository.SearchRepository;
 import es.juanlsanchez.socialnetextractor.searchservice.web.dto.QueryEditDTO;

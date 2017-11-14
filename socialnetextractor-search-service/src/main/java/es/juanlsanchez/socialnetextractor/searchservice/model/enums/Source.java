@@ -1,4 +1,4 @@
-package es.juanlsanchez.socialnetextractor.searchservice.model;
+package es.juanlsanchez.socialnetextractor.searchservice.model.enums;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;

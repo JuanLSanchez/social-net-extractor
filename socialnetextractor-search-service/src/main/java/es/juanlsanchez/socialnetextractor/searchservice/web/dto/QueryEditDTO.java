@@ -2,7 +2,7 @@ package es.juanlsanchez.socialnetextractor.searchservice.web.dto;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 
-import es.juanlsanchez.socialnetextractor.searchservice.model.Source;
+import es.juanlsanchez.socialnetextractor.searchservice.model.enums.Source;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
