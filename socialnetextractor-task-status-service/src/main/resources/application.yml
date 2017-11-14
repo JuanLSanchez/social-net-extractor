@@ -1,0 +1,3 @@
+socialnetextractor-task-status-service:
+  api:
+    version: '@project.artifact.selectedVersion.majorVersion@'
