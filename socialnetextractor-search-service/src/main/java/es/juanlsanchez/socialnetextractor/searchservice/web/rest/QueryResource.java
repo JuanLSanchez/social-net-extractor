@@ -34,7 +34,7 @@ public class QueryResource extends Resolve {
   private static final String QUERY_ID_PARAM = "{queryId}";
   private static final String SEARCH_ID_PARAM = "{searchId}";
   private static final String ID = "/id/" + QUERY_ID_PARAM;
-  private static final String SEARCH_ID = "/search/id" + SEARCH_ID_PARAM;
+  private static final String SEARCH_ID = "/search/id/" + SEARCH_ID_PARAM;
 
   private final QueryManager queryManager;
 
